@@ -1,0 +1,6 @@
+{
+  "name": "The Hair Palace Camden NJ",
+  "description": "High-converting retail and e-commerce beauty supply website for The Hair Palace in Camden, NJ featuring virgin hair bundles, HD lace wigs, store hours, and deal matrices.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

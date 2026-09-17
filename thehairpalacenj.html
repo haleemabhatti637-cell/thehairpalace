@@ -1,0 +1,743 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The Hair Palace New Jersey | Camden Virgin Hair & Beauty Supply Store</title>
+  <meta name="description" content="Shop top-grade 100% Virgin Hair bundles, HD lace front wigs, cosmetics, and beauty essentials at The Hair Palace in Camden, NJ. Open 8AM-9PM Every Day.">
+  
+  <!-- Google Fonts: Montserrat & Poppins -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  
+  <!-- Standalone Tailwind CSS via CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            regalPink: '#D91B5C',
+            royalNavy: '#1E3A8A',
+            deepNavy: '#0F2454',
+            darkNavy: '#0B1936',
+            accentGold: '#D4AF37',
+            softSlate: '#F1F5F9',
+          },
+          fontFamily: {
+            sans: ['Poppins', 'sans-serif'],
+            display: ['Montserrat', 'sans-serif'],
+          }
+        }
+      }
+    }
+  </script>
+
+  <style>
+    body {
+      font-family: 'Poppins', sans-serif;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      font-family: 'Montserrat', sans-serif;
+    }
+    .custom-scrollbar::-webkit-scrollbar {
+      width: 6px;
+    }
+    .custom-scrollbar::-webkit-scrollbar-thumb {
+      background-color: #CBD5E1;
+      border-radius: 4px;
+    }
+  </style>
+</head>
+<body class="bg-[#F8FAFC] text-slate-900 antialiased selection:bg-[#D91B5C] selection:text-white">
+
+  <!-- 1. STICKY TOP ANNOUNCEMENT BAR -->
+  <div id="store-status-banner" class="sticky top-0 z-50 bg-[#1E3A8A] text-white text-xs md:text-sm font-semibold tracking-wide py-2 px-4 text-center border-b border-blue-900/40">
+    <div class="max-w-7xl mx-auto flex items-center justify-center gap-2 md:gap-4 flex-wrap">
+      <span class="flex items-center gap-1.5 text-amber-300 font-bold">
+        <span>📍</span>
+        <span>Camden, NJ</span>
+      </span>
+      <span class="text-blue-300">•</span>
+      <span class="bg-emerald-500/20 text-emerald-300 px-2 py-0.5 rounded text-[11px] font-bold border border-emerald-400/30">
+        Open 8AM-9PM EVERY DAY
+      </span>
+      <span class="text-blue-300 hidden sm:inline">•</span>
+      <span class="text-white/95 font-medium hidden md:inline">Shop Everything Beauty</span>
+      <a href="tel:8565554247" class="ml-2 inline-flex items-center gap-1 text-[11px] bg-white/15 hover:bg-white/25 px-2.5 py-0.5 rounded-full font-bold transition-colors">
+        <span>📞 (856) 555-HAIR</span>
+      </a>
+    </div>
+  </div>
+
+  <!-- 2. MAIN NAVIGATION -->
+  <header class="sticky top-[37px] z-40 bg-white border-b border-slate-100 shadow-sm px-4 lg:px-8 py-3">
+    <div class="max-w-7xl mx-auto flex items-center justify-between gap-4">
+      
+      <!-- Brand Logo with Royal Crown Motif -->
+      <a href="#hero" class="flex items-center gap-3 group select-none">
+        <!-- 5-Point Crown SVG Motif -->
+        <svg viewBox="0 0 48 40" class="w-10 h-8 md:w-11 md:h-9 transition-transform group-hover:scale-105 flex-shrink-0" fill="none">
+          <path d="M5 33C5 31.8954 5.89543 31 7 31H41C42.1046 31 43 31.8954 43 33V35C43 36.1046 42.1046 37 41 37H7C5.89543 37 5 36.1046 5 35V33Z" fill="#1E3A8A"/>
+          <circle cx="12" cy="34" r="1.5" fill="#D91B5C"/>
+          <circle cx="24" cy="34" r="1.8" fill="#D4AF37"/>
+          <circle cx="36" cy="34" r="1.5" fill="#D91B5C"/>
+          <path d="M6 30L9 14L18 24L24 8L30 24L39 14L42 30H6Z" fill="#1E3A8A"/>
+          <path d="M18 24L24 14L30 24L24 28L18 24Z" fill="#D91B5C"/>
+          <circle cx="9" cy="12" r="2.8" fill="#D4AF37"/>
+          <circle cx="18" cy="22" r="2.2" fill="#D91B5C"/>
+          <circle cx="24" cy="6" r="3.2" fill="#D4AF37"/>
+          <circle cx="30" cy="22" r="2.2" fill="#D91B5C"/>
+          <circle cx="39" cy="12" r="2.8" fill="#D4AF37"/>
+        </svg>
+        <div class="flex flex-col leading-none">
+          <div class="flex items-center gap-1 font-display">
+            <span class="text-xs md:text-sm font-black tracking-tight text-[#1E3A8A]">THE</span>
+            <span class="text-sm md:text-base font-black tracking-tighter text-[#D91B5C]">HAIR</span>
+            <span class="text-xs md:text-sm font-black tracking-tight text-[#1E3A8A]">PALACE</span>
+          </div>
+          <span class="text-[9px] md:text-[10px] font-extrabold tracking-[0.22em] text-[#1E3A8A] mt-0.5">NEW JERSEY</span>
+          <span class="text-[7px] md:text-[8px] font-medium tracking-wider uppercase text-slate-500">Shop Everything Beauty</span>
+        </div>
+      </a>
+
+      <!-- Desktop Nav Links -->
+      <nav class="hidden lg:flex items-center gap-6 xl:gap-8 font-bold text-xs uppercase tracking-wider text-slate-800">
+        <button onclick="filterCategory('bundles')" class="hover:text-[#D91B5C] transition-colors py-2">Shop Bundles</button>
+        <button onclick="filterCategory('wigs')" class="hover:text-[#D91B5C] transition-colors py-2">HD Lace Wigs</button>
+        <button onclick="filterCategory('supplies')" class="hover:text-[#D91B5C] transition-colors py-2">Beauty Supplies</button>
+        <a href="#bundle-deals" class="text-[#D91B5C] hover:text-[#b41249] transition-colors py-2 flex items-center gap-1 font-extrabold">
+          <span>✨</span>
+          <span>Daily Deals</span>
+        </a>
+        <a href="#visit-store" class="hover:text-[#1E3A8A] transition-colors py-2">Visit Store</a>
+      </nav>
+
+      <!-- Right Actions: CTA & Cart -->
+      <div class="flex items-center gap-3">
+        <a href="#bundle-deals" class="hidden sm:inline-flex items-center justify-center bg-[#D4AF37] hover:bg-[#c49f2b] active:scale-95 text-slate-950 font-black text-xs md:text-sm tracking-wider uppercase px-5 py-2.5 rounded-lg shadow-sm transition-all duration-200">
+          Shop All Deals
+        </a>
+        <button onclick="toggleCart()" class="relative p-2.5 text-slate-700 hover:text-[#D91B5C] bg-slate-100 hover:bg-pink-50 rounded-xl transition-all">
+          <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 11V7a4 4 0 00-8 0v4M5 9h14l1 12H4L5 9z" />
+          </svg>
+          <span id="cart-badge-count" class="absolute -top-1 -right-1 w-5 h-5 bg-[#D91B5C] text-white text-[11px] font-black rounded-full flex items-center justify-center">0</span>
+        </button>
+        <button onclick="toggleMobileMenu()" class="p-2 lg:hidden text-slate-700 rounded-lg hover:bg-slate-100">
+          <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+          </svg>
+        </button>
+      </div>
+
+    </div>
+
+    <!-- Mobile Nav Dropdown -->
+    <div id="mobile-menu" class="hidden lg:hidden pt-4 pb-2 border-t border-slate-100 space-y-2 text-sm font-bold">
+      <button onclick="filterCategory('bundles'); toggleMobileMenu();" class="block w-full text-left py-2 px-2 hover:bg-pink-50 rounded text-slate-800">Virgin Bundles Deals</button>
+      <button onclick="filterCategory('wigs'); toggleMobileMenu();" class="block w-full text-left py-2 px-2 hover:bg-pink-50 rounded text-slate-800">HD Lace Frontal Wigs</button>
+      <button onclick="filterCategory('supplies'); toggleMobileMenu();" class="block w-full text-left py-2 px-2 hover:bg-pink-50 rounded text-slate-800">Beauty Supplies & Glues</button>
+      <a href="#bundle-deals" onclick="toggleMobileMenu()" class="block py-2 px-2 text-[#D91B5C] font-black">🔥 3-Bundle Special Deals</a>
+      <a href="#visit-store" onclick="toggleMobileMenu()" class="block py-2 px-2 text-slate-700">📍 Camden NJ Store Hours (8AM-9PM)</a>
+    </div>
+  </header>
+
+  <!-- 3. HERO SECTION (Matching Attached Screenshot) -->
+  <section id="hero" class="relative bg-[#0F2454] text-white pt-10 pb-16 md:pt-14 md:pb-24 overflow-hidden">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+      <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-12 items-center">
+        
+        <!-- Left: Headline, Subheadline & Badges -->
+        <div class="lg:col-span-7">
+          <div class="inline-flex items-center gap-2 bg-white/10 border border-white/15 px-3.5 py-1.5 rounded-full mb-4">
+            <span class="w-2 h-2 rounded-full bg-emerald-400 animate-ping"></span>
+            <span class="text-xs font-bold uppercase tracking-wider text-blue-200">Camden, NJ • Retail Store & Online Orders</span>
+          </div>
+
+          <h1 class="text-3xl sm:text-4xl md:text-5xl xl:text-6xl font-black uppercase tracking-tight leading-[1.08] text-white mb-4">
+            <span>THE LARGEST </span>
+            <span class="text-[#D91B5C]">VIRGIN HAIR </span>
+            <br class="hidden sm:inline">
+            <span>& BEAUTY SUPPLY STORE</span>
+          </h1>
+
+          <p class="text-base sm:text-lg text-slate-200 font-normal max-w-2xl mb-6">
+            Shop top-grade 100% Virgin Hair bundles, lace front wigs, cosmetics, and beauty essentials in Camden, NJ.
+          </p>
+
+          <!-- Status Badges Row -->
+          <div class="inline-flex flex-wrap items-center gap-2 sm:gap-3 bg-white/10 border border-white/15 px-4 py-2.5 rounded-2xl mb-8 text-xs sm:text-sm font-semibold text-slate-100">
+            <span>👑 Premium Virgin Hair</span>
+            <span class="text-white/40">•</span>
+            <span>🛍️ Daily Deals</span>
+            <span class="text-white/40">•</span>
+            <span class="text-amber-300 font-bold">🚚 Fast Local Pick-up</span>
+          </div>
+
+          <!-- Action Buttons -->
+          <div class="flex flex-wrap items-center gap-4">
+            <a href="#bundle-deals" class="inline-flex items-center gap-2 bg-[#D91B5C] hover:bg-[#b8144b] text-white font-extrabold text-sm sm:text-base tracking-wider uppercase px-7 py-3.5 rounded-xl shadow-lg transition-all">
+              <span>✨ EXPLORE BUNDLE DEALS</span>
+            </a>
+            <a href="#visit-store" class="inline-flex items-center gap-2 bg-[#D4AF37] hover:bg-[#c29e2e] text-slate-950 font-extrabold text-sm sm:text-base tracking-wider uppercase px-7 py-3.5 rounded-xl shadow-md transition-all">
+              <span>📍 GET DIRECTIONS</span>
+            </a>
+          </div>
+        </div>
+
+        <!-- Right: Bento Beauty Collage Grid -->
+        <div class="lg:col-span-5 relative">
+          <div class="grid grid-cols-3 gap-2.5 p-3 bg-white/5 rounded-3xl border border-white/10 backdrop-blur-sm">
+            <div class="h-28 sm:h-36 rounded-2xl overflow-hidden shadow">
+              <img src="https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?auto=format&fit=crop&w=400&q=80" alt="Virgin Bundles" class="w-full h-full object-cover">
+            </div>
+            <div class="h-28 sm:h-36 rounded-2xl overflow-hidden shadow">
+              <img src="https://images.unsplash.com/photo-1512496015851-a90fb38ba796?auto=format&fit=crop&w=400&q=80" alt="Cosmetics" class="w-full h-full object-cover">
+            </div>
+            <div class="h-28 sm:h-36 rounded-2xl overflow-hidden shadow">
+              <img src="https://images.unsplash.com/photo-1560869713-7d0a29430803?auto=format&fit=crop&w=400&q=80" alt="Blonde Bundles" class="w-full h-full object-cover">
+            </div>
+            <div class="col-span-2 h-44 sm:h-56 rounded-2xl overflow-hidden shadow-xl border border-white/10">
+              <img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=700&q=80" alt="Glam Wig" class="w-full h-full object-cover">
+            </div>
+            <div class="col-span-1 h-44 sm:h-56 rounded-2xl overflow-hidden shadow">
+              <img src="https://images.unsplash.com/photo-1595955793665-c146e39265ff?auto=format&fit=crop&w=400&q=80" alt="Fashion" class="w-full h-full object-cover">
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- 4. FEATURED SHOP CATEGORIES (Spotlight Cards from Screenshot) -->
+  <section id="shop-categories" class="relative -mt-8 sm:-mt-12 z-20 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pb-16">
+    
+    <!-- Top 3 Featured Cards Matching Screenshot -->
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-5 lg:gap-6 mb-12">
+      
+      <!-- Card 1: VIRGIN BUNDLES DEALS -->
+      <div class="bg-white rounded-2xl border-2 border-pink-200 shadow-xl overflow-hidden flex flex-col justify-between">
+        <div class="bg-[#D91B5C] text-white text-[11px] font-black uppercase py-1.5 text-center">VIRGIN BUNDLES DEALS</div>
+        <div class="p-5 flex-1 flex flex-col justify-between">
+          <div class="h-48 rounded-xl overflow-hidden mb-3">
+            <img src="https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?auto=format&fit=crop&w=600&q=80" alt="Virgin Bundles" class="w-full h-full object-cover">
+          </div>
+          <div>
+            <h3 class="font-black text-lg text-slate-900 uppercase">VIRGIN BUNDLES DEALS</h3>
+            <p class="text-xs text-slate-500 font-semibold mb-3">Viygin Bundles • Grade 11A Body Wave</p>
+            <div class="mb-3">
+              <label class="block text-[10px] font-bold uppercase text-slate-500 mb-1">Select Length:</label>
+              <select id="bundle-length-sel" onchange="updateSpotlightPrice('bundle', this.value)" class="w-full bg-slate-50 border border-slate-200 text-xs font-bold p-2 rounded-lg">
+                <option value="36" data-orig="49">Length: 26-38 — $36.00</option>
+                <option value="32" data-orig="42">Length: 18-24 — $32.00</option>
+                <option value="28" data-orig="38">Length: 12-16 — $28.00</option>
+              </select>
+            </div>
+            <div class="flex items-baseline justify-between mb-3">
+              <div>
+                <span id="bundle-orig-price" class="text-sm line-through text-slate-400 mr-1">$49.00</span>
+                <span id="bundle-sale-price" class="text-2xl font-black text-[#D91B5C]">$36.00</span>
+              </div>
+              <span class="text-[10px] font-bold bg-pink-100 text-[#D91B5C] px-2 py-0.5 rounded">Best blands</span>
+            </div>
+          </div>
+          <button onclick="addSpotlightToCart('VIRGIN BUNDLES DEALS', 'bundle')" class="w-full py-2.5 bg-slate-900 hover:bg-[#D91B5C] text-white font-black text-xs uppercase tracking-wider rounded-xl transition-colors">
+            Add to Cart
+          </button>
+        </div>
+      </div>
+
+      <!-- Card 2: HD LACE WIGS -->
+      <div class="bg-white rounded-2xl border border-slate-200 shadow-md hover:shadow-xl transition-shadow overflow-hidden flex flex-col justify-between">
+        <div class="bg-[#1E3A8A] text-white text-[11px] font-black uppercase py-1.5 text-center">HD LACE WIGS</div>
+        <div class="p-5 flex-1 flex flex-col justify-between">
+          <div class="h-48 rounded-xl overflow-hidden mb-3">
+            <img src="https://images.unsplash.com/photo-1595955793665-c146e39265ff?auto=format&fit=crop&w=600&q=80" alt="HD Lace Wig" class="w-full h-full object-cover">
+          </div>
+          <div>
+            <h3 class="font-black text-lg text-slate-900 uppercase">HD LACE WIGS</h3>
+            <p class="text-xs text-slate-500 font-semibold mb-3">Beauty Bundles • 13x6 Frontal</p>
+            <div class="mb-3">
+              <label class="block text-[10px] font-bold uppercase text-slate-500 mb-1">Select Length:</label>
+              <select id="wig-length-sel" onchange="updateSpotlightPrice('wig', this.value)" class="w-full bg-slate-50 border border-slate-200 text-xs font-bold p-2 rounded-lg">
+                <option value="29" data-orig="39">Length: 26-32 — $29.00</option>
+                <option value="79" data-orig="99">Length: 14-20 — $79.00</option>
+                <option value="119" data-orig="155">Length: 22-26 — $119.00</option>
+              </select>
+            </div>
+            <div class="flex items-baseline justify-between mb-3">
+              <div>
+                <span id="wig-orig-price" class="text-sm line-through text-slate-400 mr-1">$39.00</span>
+                <span id="wig-sale-price" class="text-2xl font-black text-[#D91B5C]">$29.00</span>
+              </div>
+              <span class="text-[10px] font-bold bg-pink-100 text-[#D91B5C] px-2 py-0.5 rounded">Fashion</span>
+            </div>
+          </div>
+          <button onclick="addSpotlightToCart('HD LACE WIGS', 'wig')" class="w-full py-2.5 bg-slate-900 hover:bg-[#D91B5C] text-white font-black text-xs uppercase tracking-wider rounded-xl transition-colors">
+            Add to Cart
+          </button>
+        </div>
+      </div>
+
+      <!-- Card 3: BEAUTY SUPPLIES -->
+      <div class="bg-white rounded-2xl border border-slate-200 shadow-md hover:shadow-xl transition-shadow overflow-hidden flex flex-col justify-between">
+        <div class="bg-slate-900 text-white text-[11px] font-black uppercase py-1.5 text-center">BEAUTY SUPPLIES</div>
+        <div class="p-5 flex-1 flex flex-col justify-between">
+          <div class="h-48 rounded-xl overflow-hidden mb-3">
+            <img src="https://images.unsplash.com/photo-1512496015851-a90fb38ba796?auto=format&fit=crop&w=600&q=80" alt="Beauty Supplies" class="w-full h-full object-cover">
+          </div>
+          <div>
+            <h3 class="font-black text-lg text-slate-900 uppercase">BEAUTY SUPPLIES</h3>
+            <p class="text-xs text-slate-500 font-semibold mb-3">Beauty Supplies • Glues & Kits</p>
+            <div class="mb-3">
+              <label class="block text-[10px] font-bold uppercase text-slate-500 mb-1">Select Kit:</label>
+              <select id="supply-length-sel" onchange="updateSpotlightPrice('supply', this.value)" class="w-full bg-slate-50 border border-slate-200 text-xs font-bold p-2 rounded-lg">
+                <option value="33" data-orig="29">Beauty Supplies Full Set — $33.00</option>
+                <option value="29" data-orig="38">Lace Glue Kit — $29.00</option>
+                <option value="12" data-orig="18">24-Hr Edge Tamer — $12.00</option>
+              </select>
+            </div>
+            <div class="flex items-baseline justify-between mb-3">
+              <div>
+                <span id="supply-orig-price" class="text-sm line-through text-slate-400 mr-1">$29.00</span>
+                <span id="supply-sale-price" class="text-2xl font-black text-[#D91B5C]">$33.00</span>
+              </div>
+              <span class="text-[10px] font-bold bg-pink-100 text-[#D91B5C] px-2 py-0.5 rounded">Fashion</span>
+            </div>
+          </div>
+          <button onclick="addSpotlightToCart('BEAUTY SUPPLIES', 'supply')" class="w-full py-2.5 bg-slate-900 hover:bg-[#D91B5C] text-white font-black text-xs uppercase tracking-wider rounded-xl transition-colors">
+            Add to Cart
+          </button>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- Category Tabs Navigation -->
+    <div class="bg-white rounded-2xl border border-slate-200 p-6 shadow-sm">
+      <div class="flex items-center justify-between flex-wrap gap-4 pb-4 border-b border-slate-100">
+        <div>
+          <span class="text-xs font-black uppercase text-[#D91B5C] tracking-widest">Inventory Categories</span>
+          <h2 class="text-2xl font-black uppercase text-slate-900">BROWSE ALL BEAUTY PRODUCTS</h2>
+        </div>
+        <!-- Category Filter Buttons -->
+        <div class="flex items-center gap-2 flex-wrap">
+          <button onclick="filterCategory('all')" id="tab-all" class="cat-tab-btn px-4 py-2 rounded-xl text-xs font-bold uppercase bg-[#1E3A8A] text-white">All Products</button>
+          <button onclick="filterCategory('bundles')" id="tab-bundles" class="cat-tab-btn px-4 py-2 rounded-xl text-xs font-bold uppercase bg-slate-100 text-slate-700 hover:bg-slate-200">Virgin Bundles Deals</button>
+          <button onclick="filterCategory('wigs')" id="tab-wigs" class="cat-tab-btn px-4 py-2 rounded-xl text-xs font-bold uppercase bg-slate-100 text-slate-700 hover:bg-slate-200">HD Lace Wigs</button>
+          <button onclick="filterCategory('supplies')" id="tab-supplies" class="cat-tab-btn px-4 py-2 rounded-xl text-xs font-bold uppercase bg-slate-100 text-slate-700 hover:bg-slate-200">Beauty Supplies</button>
+          <button onclick="filterCategory('fashion')" id="tab-fashion" class="cat-tab-btn px-4 py-2 rounded-xl text-xs font-bold uppercase bg-slate-100 text-slate-700 hover:bg-slate-200">Fashion & Essentials</button>
+        </div>
+      </div>
+
+      <!-- Products Grid -->
+      <div id="product-grid" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5 mt-6">
+        <!-- Rendered dynamically via JS -->
+      </div>
+    </div>
+  </section>
+
+  <!-- 5. SPECIAL PROMOTIONS & 3-BUNDLE DEALS (Screenshot Bottom Magenta Ribbon & Matrix) -->
+  <section id="bundle-deals" class="py-14 bg-slate-100">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <!-- Magenta Active Deals Ribbon -->
+      <div class="bg-[#D91B5C] text-white rounded-3xl p-6 shadow-xl mb-8 flex flex-col lg:flex-row items-center justify-between gap-6">
+        <div class="flex items-center gap-4 text-left">
+          <div class="w-16 h-16 rounded-full bg-white/20 border-2 border-white/50 flex flex-col items-center justify-center font-black text-center text-xs leading-none">
+            <span class="text-amber-300">100%</span>
+            <span>VIRGIN</span>
+            <span class="text-[9px]">11A/12A</span>
+          </div>
+          <div>
+            <h3 class="text-2xl sm:text-3xl font-black uppercase text-white">ACTIVE BUNDLE DEALS!</h3>
+            <p class="text-xs sm:text-sm text-pink-100 font-medium">Come visit at our Camden store or shop online for exclusive 3-Bundle deals!</p>
+          </div>
+        </div>
+
+        <!-- Countdown Timer -->
+        <div class="bg-black/25 px-4 py-2.5 rounded-2xl flex items-center gap-2 font-mono font-black text-lg">
+          <span class="text-xs uppercase font-sans text-pink-200 mr-1">Deal Ends:</span>
+          <span id="timer-hours">07</span>h :
+          <span id="timer-minutes">42</span>m :
+          <span id="timer-seconds" class="text-amber-300">19</span>s
+        </div>
+
+        <!-- Claim CTA -->
+        <button onclick="addBundleMatrixToCart('18 & 20 & 22 3-Bundle Deal', 109)" class="bg-[#D4AF37] hover:bg-[#c29e2e] text-slate-950 font-black text-xs uppercase tracking-wider px-6 py-3.5 rounded-xl shadow">
+          CLAIM 3-BUNDLE DEAL ($109)
+        </button>
+      </div>
+
+      <!-- 3-Bundle Pricing Matrix Grid -->
+      <div class="bg-white rounded-3xl p-6 sm:p-8 border border-slate-200">
+        <h3 class="text-2xl font-black uppercase text-slate-900 mb-6">3-BUNDLE COMBO SPECIALS BY LENGTH</h3>
+        
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+          <div class="p-4 rounded-2xl border-2 border-slate-200 hover:border-[#D91B5C] transition-colors">
+            <div class="text-xs text-slate-400 font-bold">Lengths Included:</div>
+            <div class="text-xl font-black text-slate-900 font-mono">14" + 16" + 18"</div>
+            <div class="text-xs text-slate-500 mb-3">Grade 11A Body Wave</div>
+            <div class="flex items-baseline justify-between pt-2 border-t border-slate-100">
+              <span class="text-2xl font-black text-[#D91B5C]">$89.00</span>
+              <button onclick="addBundleMatrixToCart('14/16/18 3-Bundle Deal', 89)" class="px-3 py-1.5 bg-slate-900 text-white text-xs font-bold rounded-lg hover:bg-[#D91B5C]">Add Deal</button>
+            </div>
+          </div>
+
+          <div class="p-4 rounded-2xl border-2 border-[#D91B5C] bg-pink-50/40">
+            <span class="text-[10px] font-black uppercase bg-[#D91B5C] text-white px-2 py-0.5 rounded">Most Popular</span>
+            <div class="text-xl font-black text-slate-900 font-mono mt-1">18" + 20" + 22"</div>
+            <div class="text-xs text-slate-500 mb-3">Full Cuticle Aligned</div>
+            <div class="flex items-baseline justify-between pt-2 border-t border-slate-100">
+              <span class="text-2xl font-black text-[#D91B5C]">$109.00</span>
+              <button onclick="addBundleMatrixToCart('18/20/22 3-Bundle Deal', 109)" class="px-3 py-1.5 bg-[#D91B5C] text-white text-xs font-bold rounded-lg hover:bg-pink-700">Add Deal</button>
+            </div>
+          </div>
+
+          <div class="p-4 rounded-2xl border-2 border-slate-200 hover:border-[#D91B5C] transition-colors">
+            <div class="text-xs text-slate-400 font-bold">Lengths Included:</div>
+            <div class="text-xl font-black text-slate-900 font-mono">22" + 24" + 26"</div>
+            <div class="text-xs text-slate-500 mb-3">Double Weft 100g each</div>
+            <div class="flex items-baseline justify-between pt-2 border-t border-slate-100">
+              <span class="text-2xl font-black text-[#D91B5C]">$139.00</span>
+              <button onclick="addBundleMatrixToCart('22/24/26 3-Bundle Deal', 139)" class="px-3 py-1.5 bg-slate-900 text-white text-xs font-bold rounded-lg hover:bg-[#D91B5C]">Add Deal</button>
+            </div>
+          </div>
+
+          <div class="p-4 rounded-2xl border-2 border-slate-200 hover:border-[#D91B5C] transition-colors">
+            <div class="text-xs text-slate-400 font-bold">Lengths Included:</div>
+            <div class="text-xl font-black text-slate-900 font-mono">26" + 28" + 30"</div>
+            <div class="text-xs text-slate-500 mb-3">Mega Length Silk Bundles</div>
+            <div class="flex items-baseline justify-between pt-2 border-t border-slate-100">
+              <span class="text-2xl font-black text-[#D91B5C]">$169.00</span>
+              <button onclick="addBundleMatrixToCart('26/28/30 3-Bundle Deal', 169)" class="px-3 py-1.5 bg-slate-900 text-white text-xs font-bold rounded-lg hover:bg-[#D91B5C]">Add Deal</button>
+            </div>
+          </div>
+
+          <div class="p-4 rounded-2xl border-2 border-slate-200 hover:border-[#D91B5C] transition-colors">
+            <div class="text-xs text-slate-400 font-bold">Lengths Included:</div>
+            <div class="text-xl font-black text-slate-900 font-mono">32" + 34" + 36"</div>
+            <div class="text-xs text-slate-500 mb-3">Extended Waist Length</div>
+            <div class="flex items-baseline justify-between pt-2 border-t border-slate-100">
+              <span class="text-2xl font-black text-[#D91B5C]">$219.00</span>
+              <button onclick="addBundleMatrixToCart('32/34/36 3-Bundle Deal', 219)" class="px-3 py-1.5 bg-slate-900 text-white text-xs font-bold rounded-lg hover:bg-[#D91B5C]">Add Deal</button>
+            </div>
+          </div>
+
+          <div class="p-4 rounded-2xl border-2 border-[#D4AF37] bg-amber-50/40">
+            <span class="text-[10px] font-black uppercase bg-[#D4AF37] text-slate-950 px-2 py-0.5 rounded">Floor Length</span>
+            <div class="text-xl font-black text-slate-900 font-mono mt-1">36" + 38" + 40"</div>
+            <div class="text-xs text-slate-500 mb-3">Queen Royalty Ankle Length</div>
+            <div class="flex items-baseline justify-between pt-2 border-t border-slate-100">
+              <span class="text-2xl font-black text-[#D91B5C]">$269.00</span>
+              <button onclick="addBundleMatrixToCart('36/38/40 3-Bundle Deal', 269)" class="px-3 py-1.5 bg-slate-900 text-white text-xs font-bold rounded-lg hover:bg-[#D91B5C]">Add Deal</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Trust Badges & Instagram handle from screenshot -->
+        <div class="mt-8 pt-6 border-t border-slate-100 flex flex-col md:flex-row items-center justify-between gap-4">
+          <div class="flex items-center gap-4">
+            <div class="w-12 h-12 rounded-full border-2 border-dashed border-[#D4AF37] flex items-center justify-center font-black text-[9px] bg-amber-50 text-[#D4AF37]">
+              100% AUTHENTIC
+            </div>
+            <div class="text-xs">
+              <div class="font-black text-slate-800">100% SATISFACTION GUARANTEED</div>
+              <div class="text-slate-500">Camden Storefront • Open 8AM - 9PM Everyday</div>
+            </div>
+          </div>
+
+          <a href="https://instagram.com/thehairpalacenj" target="_blank" class="inline-flex items-center gap-2 bg-gradient-to-r from-purple-600 via-pink-600 to-amber-500 text-white font-bold text-xs px-4 py-2.5 rounded-xl shadow">
+            <span>📷 Follow @thehairpalacenj</span>
+          </a>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- 6. STORE LOCATION & VISIT INFO -->
+  <section id="visit-store" class="py-16 bg-white">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center max-w-2xl mx-auto mb-10">
+        <span class="text-xs font-black uppercase text-[#1E3A8A] tracking-widest bg-blue-50 px-3 py-1 rounded-full">Camden Retail Location</span>
+        <h2 class="text-3xl font-black uppercase text-slate-900 mt-2">VISIT OUR STORE IN CAMDEN, NJ</h2>
+        <p class="text-xs sm:text-sm text-slate-600 mt-1">Inspect textures in person, match lace frontals, and pick up in 15 minutes.</p>
+      </div>
+
+      <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 items-stretch">
+        <div class="bg-slate-50 rounded-3xl p-6 sm:p-8 border border-slate-200 flex flex-col justify-between">
+          <div class="space-y-6">
+            <div class="flex items-center justify-between pb-4 border-b border-slate-200">
+              <div>
+                <span class="text-xs font-black uppercase text-slate-900 block">🟢 OPEN RIGHT NOW</span>
+                <span class="text-xs text-slate-500">Monday through Sunday: 8:00 AM – 9:00 PM</span>
+              </div>
+              <span class="text-xs font-bold bg-white text-[#1E3A8A] border px-2.5 py-1 rounded-full">No Days Off</span>
+            </div>
+
+            <div>
+              <h4 class="text-xs font-black uppercase text-slate-400">Address</h4>
+              <p class="text-lg font-bold text-slate-900 mt-0.5">Broadway & Market District, Camden, NJ 08102</p>
+              <p class="text-xs text-slate-500">Free storefront parking available.</p>
+            </div>
+
+            <div>
+              <h4 class="text-xs font-black uppercase text-slate-400">Phone & In-Store Pick-up</h4>
+              <p class="text-lg font-bold text-slate-900 mt-0.5">(856) 555-HAIR</p>
+              <p class="text-xs text-slate-500">Call ahead to hold custom bundle lengths.</p>
+            </div>
+          </div>
+
+          <div class="grid grid-cols-2 gap-3 mt-8 pt-4 border-t border-slate-200">
+            <a href="https://maps.google.com/?q=Camden+NJ" target="_blank" class="py-3 bg-[#1E3A8A] text-white text-center rounded-xl font-bold text-xs uppercase tracking-wider hover:bg-blue-900">
+              Get Directions
+            </a>
+            <a href="tel:8565554247" class="py-3 bg-emerald-600 text-white text-center rounded-xl font-bold text-xs uppercase tracking-wider hover:bg-emerald-700">
+              Call Storefront
+            </a>
+          </div>
+        </div>
+
+        <div class="bg-[#1E3A8A] rounded-3xl p-6 text-white flex flex-col justify-between shadow-lg">
+          <div class="flex items-center justify-between mb-4">
+            <div class="font-bold text-sm">📍 Central Camden, New Jersey</div>
+            <span class="bg-[#D4AF37] text-slate-950 text-xs font-black px-2.5 py-0.5 rounded">15-Min Pick-up</span>
+          </div>
+          <div class="h-64 rounded-2xl overflow-hidden bg-slate-800 border border-white/20">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d48995.14840899011!2d-75.14324546416174!3d39.932977799513364!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c6c8e312f275e7%3A0x6e8fbe5998f82215!2sCamden%2C%20NJ!5e0!3m2!1sen!2sus!4v1710000000000!5m2!1sen!2sus"
+              class="w-full h-full border-0" loading="lazy">
+            </iframe>
+          </div>
+          <div class="grid grid-cols-3 gap-2 mt-4 text-center text-xs">
+            <div class="bg-white/10 p-2 rounded-xl">🚗 Free Parking</div>
+            <div class="bg-white/10 p-2 rounded-xl">✨ Lace Matching</div>
+            <div class="bg-white/10 p-2 rounded-xl">👑 Raw Bundles</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 7. FOOTER -->
+  <footer class="bg-[#0B1936] text-white pt-12 pb-8 border-t-4 border-[#D91B5C]">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex flex-col md:flex-row items-center justify-between gap-6 pb-8 border-b border-blue-900">
+        <div>
+          <div class="flex items-center gap-2 font-display text-lg font-black">
+            <span class="text-white">THE</span>
+            <span class="text-[#D91B5C]">HAIR</span>
+            <span class="text-white">PALACE</span>
+            <span class="text-[#D4AF37] text-xs">NEW JERSEY</span>
+          </div>
+          <p class="text-xs text-slate-300 mt-1">Camden's Largest Virgin Hair & Beauty Supply Destination.</p>
+        </div>
+        <div class="flex items-center gap-4 text-xs">
+          <a href="https://instagram.com/thehairpalacenj" target="_blank" class="text-pink-400 hover:underline">Instagram @thehairpalacenj</a>
+          <span>•</span>
+          <span>Open 8AM-9PM Every Day</span>
+          <span>•</span>
+          <a href="tel:8565554247" class="text-amber-400 font-bold">(856) 555-HAIR</a>
+        </div>
+      </div>
+      <div class="pt-6 text-center text-xs text-slate-500">
+        © 2026 The Hair Palace New Jersey. All rights reserved. Camden, NJ 08102.
+      </div>
+    </div>
+  </footer>
+
+  <!-- 8. SLIDE-OVER SHOPPING CART DRAWER -->
+  <div id="cart-drawer-backdrop" class="fixed inset-0 bg-black/60 z-50 hidden transition-opacity" onclick="toggleCart()"></div>
+  <div id="cart-drawer" class="fixed inset-y-0 right-0 max-w-full flex pl-10 z-50 transform translate-x-full transition-transform duration-300">
+    <div class="w-screen max-w-md bg-white shadow-2xl flex flex-col justify-between">
+      
+      <!-- Cart Header -->
+      <div class="p-5 border-b border-slate-100 flex items-center justify-between bg-slate-50">
+        <h3 class="text-base font-black uppercase text-slate-900 tracking-tight">Your Shopping Bag</h3>
+        <button onclick="toggleCart()" class="p-2 text-slate-400 hover:text-slate-700 rounded-full hover:bg-slate-200">✕</button>
+      </div>
+
+      <!-- Cart Items Container -->
+      <div id="cart-items-container" class="flex-1 overflow-y-auto p-5 space-y-3">
+        <!-- Rendered via JS -->
+      </div>
+
+      <!-- Cart Footer / Subtotal -->
+      <div class="p-5 border-t border-slate-100 bg-slate-50 space-y-3">
+        <div class="flex justify-between text-xs font-semibold text-slate-600">
+          <span>Camden Storefront Pick-up</span>
+          <span class="text-emerald-600 font-bold">FREE (Ready in 15m)</span>
+        </div>
+        <div class="flex justify-between text-base font-black text-slate-900 pt-2 border-t border-slate-200">
+          <span>Total:</span>
+          <span id="cart-total-display" class="text-[#D91B5C]">$0.00</span>
+        </div>
+        <button onclick="checkoutCart()" class="w-full py-3.5 bg-[#D91B5C] hover:bg-[#b8144b] text-white font-black text-xs uppercase tracking-wider rounded-xl shadow">
+          Proceed to Order
+        </button>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- JAVASCRIPT LOGIC -->
+  <script>
+    const PRODUCTS_DATA = [
+      { id: '1', name: 'VIRGIN BUNDLES DEALS', subtitle: '100% Virgin 11A Body Wave', category: 'bundles', price: 36, orig: 49, tag: 'Best blands', img: 'https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?auto=format&fit=crop&w=400&q=80', length: 'Length: 26-38' },
+      { id: '2', name: 'HD LACE WIGS', subtitle: '13x6 Frontal Swiss Lace', category: 'wigs', price: 29, orig: 39, tag: 'Fashion', img: 'https://images.unsplash.com/photo-1595955793665-c146e39265ff?auto=format&fit=crop&w=400&q=80', length: 'Length: 26-32' },
+      { id: '3', name: 'BEAUTY SUPPLIES', subtitle: 'Lace Melt Kits & Glues', category: 'supplies', price: 33, orig: 29, tag: 'Fashion', img: 'https://images.unsplash.com/photo-1512496015851-a90fb38ba796?auto=format&fit=crop&w=400&q=80', length: 'Full Set' },
+      { id: '4', name: '613 RUSSIAN BLONDE', subtitle: 'Platinum Virgin Bundles', category: 'bundles', price: 46, orig: 58, tag: '100% Virgin 11A', img: 'https://images.unsplash.com/photo-1560869713-7d0a29430803?auto=format&fit=crop&w=400&q=80', length: 'Length: 20-24' },
+      { id: '5', name: 'EXOTIC DEEP WAVE', subtitle: 'Wet & Wavy Raw Curls', category: 'bundles', price: 38, orig: 49, tag: 'Top Pick', img: 'https://images.unsplash.com/photo-1580618672591-eb180b1a973f?auto=format&fit=crop&w=400&q=80', length: 'Length: 20-24' },
+      { id: '6', name: 'GLUELESS WEAR & GO BOB', subtitle: 'Pre-Cut 5x5 HD Closure', category: 'wigs', price: 79, orig: 99, tag: 'Glueless 30s', img: 'https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=400&q=80', length: '12" Bob Style' },
+      { id: '7', name: '24-HR EDGES & MELT BAND', subtitle: 'Extreme Hold Edge Slayer', category: 'supplies', price: 12, orig: 18, tag: 'No Flakes', img: 'https://images.unsplash.com/photo-1516975080664-ed2fc6a32937?auto=format&fit=crop&w=400&q=80', length: 'Single Jar' },
+      { id: '8', name: 'SILK BONNET & HOT COMB', subtitle: 'Satin Hair Protection', category: 'fashion', price: 24, orig: 35, tag: 'Essentials', img: 'https://images.unsplash.com/photo-1527799820374-dcf8d9d4a388?auto=format&fit=crop&w=400&q=80', length: 'Combo Set' },
+    ];
+
+    let cart = [];
+    let currentCategory = 'all';
+
+    function renderProducts() {
+      const container = document.getElementById('product-grid');
+      const filtered = currentCategory === 'all' ? PRODUCTS_DATA : PRODUCTS_DATA.filter(p => p.category === currentCategory);
+      
+      container.innerHTML = filtered.map(item => `
+        <div class="bg-white rounded-2xl border border-slate-200 shadow-xs hover:shadow-lg transition-all p-4 flex flex-col justify-between">
+          <div class="h-44 rounded-xl overflow-hidden mb-3 relative">
+            <img src="${item.img}" alt="${item.name}" class="w-full h-full object-cover">
+            <span class="absolute top-2 left-2 bg-[#D91B5C] text-white text-[9px] font-black uppercase px-2 py-0.5 rounded">${item.tag}</span>
+          </div>
+          <div>
+            <h4 class="font-black text-sm uppercase text-slate-900">${item.name}</h4>
+            <p class="text-[11px] text-slate-500 mb-2">${item.subtitle}</p>
+            <div class="text-xs font-semibold text-slate-700 mb-2">${item.length}</div>
+            <div class="flex items-baseline gap-2 mb-3">
+              <span class="text-xs line-through text-slate-400">$${item.orig}.00</span>
+              <span class="text-xl font-black text-[#D91B5C]">$${item.price}.00</span>
+            </div>
+          </div>
+          <button onclick="addToCart('${item.name}', '${item.length}', ${item.price}, '${item.img}')" class="w-full py-2 bg-slate-900 hover:bg-[#D91B5C] text-white text-xs font-bold rounded-lg uppercase tracking-wider transition-colors">
+            Add to Bag
+          </button>
+        </div>
+      `).join('');
+    }
+
+    function filterCategory(cat) {
+      currentCategory = cat;
+      document.querySelectorAll('.cat-tab-btn').forEach(btn => {
+        btn.className = 'cat-tab-btn px-4 py-2 rounded-xl text-xs font-bold uppercase bg-slate-100 text-slate-700 hover:bg-slate-200';
+      });
+      const activeBtn = document.getElementById(`tab-${cat}`);
+      if (activeBtn) {
+        activeBtn.className = 'cat-tab-btn px-4 py-2 rounded-xl text-xs font-bold uppercase bg-[#1E3A8A] text-white';
+      }
+      renderProducts();
+      document.getElementById('shop-categories').scrollIntoView({ behavior: 'smooth' });
+    }
+
+    function updateSpotlightPrice(type, val) {
+      const price = Number(val);
+      const sel = document.getElementById(`${type}-length-sel`);
+      const orig = sel.options[sel.selectedIndex].getAttribute('data-orig');
+      document.getElementById(`${type}-sale-price`).innerText = `$${price}.00`;
+      document.getElementById(`${type}-orig-price`).innerText = `$${orig}.00`;
+    }
+
+    function addSpotlightToCart(name, type) {
+      const sel = document.getElementById(`${type}-length-sel`);
+      const price = Number(sel.value);
+      const lengthLabel = sel.options[sel.selectedIndex].text.split('—')[0].trim();
+      const img = type === 'bundle' ? 'https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?auto=format&fit=crop&w=400&q=80' :
+                  type === 'wig' ? 'https://images.unsplash.com/photo-1595955793665-c146e39265ff?auto=format&fit=crop&w=400&q=80' :
+                  'https://images.unsplash.com/photo-1512496015851-a90fb38ba796?auto=format&fit=crop&w=400&q=80';
+      addToCart(name, lengthLabel, price, img);
+    }
+
+    function addBundleMatrixToCart(dealTitle, price) {
+      addToCart(dealTitle, '3-Bundle Set (Camden Promo)', price, 'https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?auto=format&fit=crop&w=400&q=80');
+    }
+
+    function addToCart(name, length, price, img) {
+      cart.push({ id: Date.now(), name, length, price, img });
+      updateCartUI();
+      toggleCart(true);
+    }
+
+    function updateCartUI() {
+      document.getElementById('cart-badge-count').innerText = cart.length;
+      const container = document.getElementById('cart-items-container');
+      
+      if (cart.length === 0) {
+        container.innerHTML = `<div class="text-center py-12 text-slate-400 text-xs">Your shopping bag is empty.</div>`;
+        document.getElementById('cart-total-display').innerText = '$0.00';
+        return;
+      }
+
+      const total = cart.reduce((sum, item) => sum + item.price, 0);
+      document.getElementById('cart-total-display').innerText = `$${total.toFixed(2)}`;
+
+      container.innerHTML = cart.map((item, idx) => `
+        <div class="flex items-center gap-3 p-3 bg-slate-50 rounded-xl border border-slate-200">
+          <img src="${item.img}" class="w-12 h-12 rounded object-cover">
+          <div class="flex-1 min-w-0">
+            <h4 class="text-xs font-bold text-slate-900 truncate">${item.name}</h4>
+            <div class="text-[10px] text-slate-500">${item.length}</div>
+            <div class="text-xs font-black text-[#D91B5C]">$${item.price}.00</div>
+          </div>
+          <button onclick="removeFromCart(${idx})" class="text-xs text-rose-500 font-bold p-1">✕</button>
+        </div>
+      `).join('');
+    }
+
+    function removeFromCart(idx) {
+      cart.splice(idx, 1);
+      updateCartUI();
+    }
+
+    function toggleCart(forceOpen) {
+      const drawer = document.getElementById('cart-drawer');
+      const backdrop = document.getElementById('cart-drawer-backdrop');
+      if (forceOpen || drawer.classList.contains('translate-x-full')) {
+        drawer.classList.remove('translate-x-full');
+        backdrop.classList.remove('hidden');
+      } else {
+        drawer.classList.add('translate-x-full');
+        backdrop.classList.add('hidden');
+      }
+    }
+
+    function checkoutCart() {
+      if (cart.length === 0) return;
+      alert('Order placed successfully! Ready for pickup at our Camden, NJ storefront in 15 minutes.');
+      cart = [];
+      updateCartUI();
+      toggleCart(false);
+    }
+
+    function toggleMobileMenu() {
+      const menu = document.getElementById('mobile-menu');
+      menu.classList.toggle('hidden');
+    }
+
+    // Countdown Timer logic
+    setInterval(() => {
+      const secEl = document.getElementById('timer-seconds');
+      if (secEl) {
+        let sec = parseInt(secEl.innerText);
+        if (sec > 0) {
+          secEl.innerText = String(sec - 1).padStart(2, '0');
+        } else {
+          secEl.innerText = '59';
+        }
+      }
+    }, 1000);
+
+    // Initial render
+    renderProducts();
+  </script>
+</body>
+</html>
